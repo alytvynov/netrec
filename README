@@ -1,0 +1,5 @@
+Package netrec provides a wrapper for net.Listener that records all data sent on it's connections.
+Example HTTP server (in folder "example") shows how it's used to print all requests/responses.
+
+Warning: all data is stored in memory while connection is alive, do not use this for large volumes of data!
+Use for debugging only.
