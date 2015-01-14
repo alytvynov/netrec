@@ -6,7 +6,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/captaincronos/netrec"
+	"github.com/alytvynov/netrec"
 )
 
 func main() {
